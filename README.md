@@ -5,7 +5,7 @@
 
 <h2 align="center">👨‍🏫 Professor</h2>
 <div align="center" style="display: inline_block"><br>
-    <a href="https://github.com/marcoaparaujo"><img alt="Professor Victor" src="https://media-exp1.licdn.com/dms/image/C5603AQExY_Yk-oK1UQ/profile-displayphoto-shrink_200_200/0/1516889759530?e=1634774400&v=beta&t=_8pJ_paaoMrf9wMR2TiiXwWMOHnf0gfz6LvDK7TNfuU" width="115"></a>
+    <a href="https://github.com/marcoaparaujo"><img alt="Marco Antonio" src="https://avatars.githubusercontent.com/u/14283863?v=4" width="115"></a>
     </div>
 
 
