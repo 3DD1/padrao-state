@@ -1,5 +1,5 @@
 <h1 align="center">State</h1>
-<a href="http://granbery.edu.br/"><h3 align="center">Faculdade Metodista Granbery</h3>  </a>  
+<a href="http://granbery.edu.br/"><h3 align="center">Faculdade Metodista Granbery</h3></a>  
 
 
 
