@@ -6,11 +6,14 @@ public interface AtletaEstado {
 
     String caminhando(Atleta atleta);
 
+    String nadando(Atleta atleta);
+    /*
     String correndo(Atleta atleta);
 
-    String nadando(Atleta atleta);
 
     String surfando(Atleta atleta);
 
     String pedalando(Atleta atleta);
+    */
 }
+     */
