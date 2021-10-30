@@ -1,4 +1,4 @@
-public class AtletaEstadoDescansando implements AtletaEstado {
+public class AtletaEstadoDescansando implements AtletaEstado{
 
     private AtletaEstadoDescansando() {};
     private static AtletaEstadoDescansando instance = new AtletaEstadoDescansando();
