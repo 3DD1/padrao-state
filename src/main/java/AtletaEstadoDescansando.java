@@ -2,13 +2,13 @@ public class AtletaEstadoDescansando implements AtletaEstado{
 
     private AtletaEstadoDescansando() {};
     private static AtletaEstadoDescansando instance = new AtletaEstadoDescansando();
-    private static AtletaEstadoDescansando getInstance(){
+    public static AtletaEstadoDescansando getInstance(){
         return instance;
     }
     public String getEstado(){
         return "Atleta Descansando";
     }
-    public String descandado(Atleta atleta){
+    public String descansando(Atleta atleta){
         return "Atleta fora do Descanso";
     }
     public String caminhando(Atleta atleta){

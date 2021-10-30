@@ -13,7 +13,7 @@ public class Atleta {
     }
     public String caminhando(){
         return estado.caminhando(this);
-    }
+    }/*
     public String correndo(){
         return estado.correndo(this);
     }
@@ -25,7 +25,7 @@ public class Atleta {
     }
     public String pedalando(){
         return estado.pedalando(this);
-    }
+    }*/
     public String getNomeEstado(){
         return estado.getEstado();
     }
