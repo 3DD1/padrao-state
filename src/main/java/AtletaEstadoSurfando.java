@@ -14,13 +14,13 @@ public class AtletaEstadoSurfando implements AtletaEstado {
         return "Treino não iniciado";
     }
     public String nadando(Atleta atleta){
-        return "Treino não iniciado";
+        return "Treino de natação iniciado";
     }
     public String surfando(Atleta atleta){
         return "Treino não iniciado";
     }
     public String pedalando(Atleta atleta){
-        return "Treino de natação iniciado";
+        return "Treino não iniciado";
     }
     public String correndo(Atleta atleta){
         return "Treino não iniciado";
