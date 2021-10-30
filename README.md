@@ -12,6 +12,8 @@
 
 <h2 align="center">🧪 FERRAMENTAS</h2>
 
+<a href="https://www.figma.com/community/file/1036261514535171560/State-Pattern---Exercise---Logic">Lógica Padrão State</a>
+
 <div align="center" style="display: inline_block"><br>
 
   <img align="center" alt="3DD1-JAVA" height="50" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
