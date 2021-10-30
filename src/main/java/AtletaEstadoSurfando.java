@@ -1,12 +1,11 @@
-public class AtletaEstadoCaminhando implements AtletaEstado{
-
-    private AtletaEstadoCaminhando() {};
-    private static AtletaEstadoCaminhando instance = new AtletaEstadoCaminhando();
-    public static AtletaEstadoCaminhando getInstance(){
+public class AtletaEstadoSurfando implements AtletaEstado {
+    private AtletaEstadoSurfando() {};
+    private static AtletaEstadoSurfando instance = new AtletaEstadoSurfando();
+    public static AtletaEstadoSurfando getInstance(){
         return instance;
     }
     public String getEstado(){
-        return "Atleta Caminhando";
+        return "Atleta Surfando";
     }
     public String descansando(Atleta atleta){
         return "Atleta Descansando";
@@ -21,9 +20,9 @@ public class AtletaEstadoCaminhando implements AtletaEstado{
         return "Treino não iniciado";
     }
     public String pedalando(Atleta atleta){
-        return "Treino não iniciado";
+        return "Treino de natação iniciado";
     }
     public String correndo(Atleta atleta){
-        return "Treino de corrida iniciado";
+        return "Treino não iniciado";
     }
 }

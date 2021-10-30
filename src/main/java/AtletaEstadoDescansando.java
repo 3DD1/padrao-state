@@ -20,5 +20,18 @@ public class AtletaEstadoDescansando implements AtletaEstado{
         atleta.setEstado(AtletaEstadoNadando.getInstance());
         return "Treino de natação iniciado";
     }
+    public String pedalando(Atleta atleta){
+        atleta.setEstado(AtletaEstadoPedalando.getInstance());
+        return "Treino de bicicleta iniciado";
+    }
 
+    public String surfando(Atleta atleta){
+        atleta.setEstado(AtletaEstadoSurfando.getInstance());
+        return "Treino de Surf iniciado";
+    }
+
+    public String correndo(Atleta atleta){
+        atleta.setEstado(AtletaEstadoCorrendo.getInstance());
+        return "Treino de corrida iniciado";
+    }
 }
