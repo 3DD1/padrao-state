@@ -13,13 +13,14 @@ public class Atleta {
     }
     public String caminhando(){
         return estado.caminhando(this);
+    }
+    public String nadando(){
+        return estado.nadando(this);
     }/*
     public String correndo(){
         return estado.correndo(this);
     }
-    public String nadando(){
-        return estado.nadando(this);
-    }
+
     public String surfando(){
         return estado.surfando(this);
     }
