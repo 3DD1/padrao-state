@@ -75,4 +75,36 @@ class AtletaTest {
         atleta.setEstado(AtletaEstadoCaminhando.getInstance());
         assertEquals("Treino de corrida iniciado", atleta.correndo());
     }
+    // Atleta Correndo
+
+    @Test
+    public void atletaNoDescansoAtletaCorrendo(){
+        atleta.setEstado(AtletaEstadoCorrendo.getInstance());
+        assertEquals("Atleta Descansando", atleta.descansando());
+    }
+    @Test
+    public void atletaIniciouTreinoDeCaminhadaAtletaCorrendo(){
+        atleta.setEstado(AtletaEstadoCorrendo.getInstance());
+        assertEquals("Treino de caminhada iniciado", atleta.caminhando());
+    }
+    @Test
+    public void atletaNaoIniciouTreinoDenatacaoAtletaCorrendo(){
+        atleta.setEstado(AtletaEstadoCorrendo.getInstance());
+        assertEquals("Treino não iniciado", atleta.nadando());
+    }
+    @Test
+    public void atletaNaoIniciouTreinoDePedaladaAtletaCorrendo(){
+        atleta.setEstado(AtletaEstadoCorrendo.getInstance());
+        assertEquals("Treino não iniciado", atleta.pedalando());
+    }
+    @Test
+    public void atletaNaoIniciouTreinoDeSurfAtletaCorrendo(){
+        atleta.setEstado(AtletaEstadoCorrendo.getInstance());
+        assertEquals("Treino não iniciado", atleta.surfando());
+    }
+    @Test
+    public void atletaNãoIniciouTreinoDeCorridaAtletaCorrendo(){
+        atleta.setEstado(AtletaEstadoCorrendo.getInstance());
+        assertEquals("Treino não iniciado", atleta.correndo());
+    }
 }
